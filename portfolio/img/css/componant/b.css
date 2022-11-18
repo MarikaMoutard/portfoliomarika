@@ -1,0 +1,6 @@
+.titre1{
+    transition: background 15s,transform 10s;
+}
+.titre1:hover{
+    transform: rotate(360deg);
+}

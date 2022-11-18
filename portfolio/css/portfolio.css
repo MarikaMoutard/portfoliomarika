@@ -1,0 +1,154 @@
+@import url();
+
+
+*{
+    background-color:rgb(255, 255, 255);
+}
+.titre1{color: rgb(220, 110, 149);
+text-align: center;
+font-size: 550%;
+margin-left: 5%;
+font-family:fantasy;
+}
+.marika{color: hotpink;
+text-align: center;
+font-size: 200%;
+margin-left: 5%;
+font-family: fantasy;
+}
+.btnaccueil{
+    background-color: deeppink;
+    justify-content: center
+}
+.btn3d{
+    background-color: fuchsia;
+    justify-content: center;   
+}
+.btncréa{ 
+    background-color: hotpink;  
+}
+.btnjv {
+    background-color: palevioletred;
+}
+.btncoding {
+    background-color: lightpink;    
+}
+.image3d { 
+    height: 13em;
+    width: 18em;
+    margin-left: 20%;
+    animation: slideleft 15s;
+}
+@keyframes slideleft{/**/
+from{
+    transform: translate(50%);
+    background: blue;
+}
+to{
+    transform: translate(0);
+}
+}
+.bonjour {
+    font-size: 1em;
+    text-align: center;
+    margin-left: 5%;
+    font-family: cursive;
+}
+.citation {
+    font-size: 100%;
+    text-align: center;
+    margin-left: 2%;
+    font-family: cursive;
+}
+.bienvenue{
+    margin-left: 3%;
+    text-align: center;
+    font-family: cursive;
+}
+.imgcover{
+    height: 55%;
+    width: 65%;
+    margin-left: 20%;
+    animation: slideleft 15s;
+}
+@keyframes slideleft{/**/
+from{
+    transform: translate(50%);
+    background: blue;
+}
+to{
+    transform: translate(0);
+}
+}
+.imglogo {
+    height: 45%;
+    width: 45%;
+    margin-left: 30%;
+}
+.imgsite {
+    height: 85%;
+    width: 85%;
+    margin-left: 5%;
+}
+.titreanimation3d {
+    text-align: center;
+    margin-left: 5%;
+font-family: fantasy;
+}
+.texte3d {
+    text-align: center;
+    font-family: cursive;
+}
+.fiolephoto {
+    height:70% ;
+    width:70% ;
+    margin-left: 17%;
+}
+.epee{
+    height: 70%;
+    width: 70%;
+    margin-left: 17%;
+}
+.lumiere{
+    height: 70%;
+    width: 70%;
+    margin-left: 17%;
+}
+.titrecrea{
+    text-align: center;
+    margin-left: 5%;
+    font-family: fantasy;
+}
+.textecrea {
+    text-align: center;
+    font-family: cursive;
+}
+.titrejv{
+    text-align: center;
+    margin-left: 5%;
+    font-family: fantasy;
+}
+.textejv{
+    text-align: center;
+    font-family: cursive;
+}
+.titrecoding{
+    text-align: center;
+    font-family: fantasy;
+}
+.textecoding{
+    text-align:center;
+    font-family: cursive;
+}
+.test{
+    transition: background 15s,transform 10s;
+}
+.test:hover{
+    transform: rotate(360deg);
+}
+.titre1{
+    transition: background 15s,transform 10s;
+}
+.titre1:hover{
+    transform: rotate(360deg);
+}
